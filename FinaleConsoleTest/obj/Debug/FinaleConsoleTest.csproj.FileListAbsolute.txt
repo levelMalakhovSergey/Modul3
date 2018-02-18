@@ -1,0 +1,9 @@
+C:\Users\serzh\source\repos\FinaleConsoleTest\FinaleConsoleTest\bin\Debug\FinaleConsoleTest.exe.config
+C:\Users\serzh\source\repos\FinaleConsoleTest\FinaleConsoleTest\bin\Debug\FinaleConsoleTest.exe
+C:\Users\serzh\source\repos\FinaleConsoleTest\FinaleConsoleTest\bin\Debug\FinaleConsoleTest.pdb
+C:\Users\serzh\source\repos\FinaleConsoleTest\FinaleConsoleTest\obj\Debug\FinaleConsoleTest.csprojResolveAssemblyReference.cache
+C:\Users\serzh\source\repos\FinaleConsoleTest\FinaleConsoleTest\obj\Debug\FinaleConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\serzh\source\repos\FinaleConsoleTest\FinaleConsoleTest\obj\Debug\FinaleConsoleTest.exe
+C:\Users\serzh\source\repos\FinaleConsoleTest\FinaleConsoleTest\obj\Debug\FinaleConsoleTest.pdb
+C:\Users\serzh\source\repos\FinaleConsoleTest\FinaleConsoleTest\bin\Debug\SystemFileReader2.dll
+C:\Users\serzh\source\repos\FinaleConsoleTest\FinaleConsoleTest\bin\Debug\SystemFileReader2.pdb

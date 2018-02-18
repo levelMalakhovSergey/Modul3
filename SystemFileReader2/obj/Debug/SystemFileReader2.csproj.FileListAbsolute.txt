@@ -1,0 +1,6 @@
+C:\Users\serzh\source\repos\FinaleConsoleTest\SystemFileReader2\obj\Debug\SystemFileReader2.csproj.CoreCompileInputs.cache
+C:\Users\serzh\source\repos\FinaleConsoleTest\SystemFileReader2\bin\Debug\SystemFileReader2.dll
+C:\Users\serzh\source\repos\FinaleConsoleTest\SystemFileReader2\bin\Debug\SystemFileReader2.pdb
+C:\Users\serzh\source\repos\FinaleConsoleTest\SystemFileReader2\obj\Debug\SystemFileReader2.dll
+C:\Users\serzh\source\repos\FinaleConsoleTest\SystemFileReader2\obj\Debug\SystemFileReader2.pdb
+C:\Users\serzh\source\repos\FinaleConsoleTest\SystemFileReader2\obj\Debug\SystemFileReader2.csprojResolveAssemblyReference.cache

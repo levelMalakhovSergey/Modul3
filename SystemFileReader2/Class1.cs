@@ -55,7 +55,7 @@ namespace SystemFileReader2
             foreach (string fileName in fileEntries)
                 ProcessFile(fileName, targetDirectory);
 
-            
+
         }
 
         private Folder CreateFolder(string path)
@@ -105,24 +105,37 @@ namespace SystemFileReader2
             return nesting2;
         }
         public void CreateFileSystemString(StringBuilder result, Folder folder, String nesting)
-        {         
-            result.AppendFormat("{0}{1}", nesting, folder.Name);
-            result.AppendLine();
-            foreach (Item item in folder.Items)
+        {
+            using (StreamWriter sw = new StreamWriter(@"D:\Games\awgd.txt"))
             {
-                Folder dir = item as Folder;
-                if (dir != null)
+                
+                result.AppendFormat("{0}{1}", nesting, folder.Name);
+                result.AppendLine();
+                //sw.WriteLine("{0}{1}", "_" + nesting, file.Name);
+                foreach (Item item in folder.Items)
                 {
-                  
-                    CreateFileSystemString(result, dir, nesting + "_");
-                }
-                File file = item as File;
-                if (file != null)
-                {
-                    result.AppendFormat("{0}{1}", "_"+nesting, file.Name);
-                    result.AppendLine();
+                    Folder dir = item as Folder;
+                    if (dir != null)
+                    {
+
+                        CreateFileSystemString(result, dir, nesting + "_");
+                    }
+                    File file = item as File;
+                    if (file != null)
+                    {
+                        result.AppendFormat("{0}{1}", "_" + nesting, file.Name);
+                        result.AppendLine();
+                        sw.WriteLine("{0}{1}", "_" + nesting, file.Name);
+                    }
                 }
             }
+
+
+            using (StreamWriter sw = new StreamWriter("result2.txt"))
+            {
+
+            }
+
 
         }
     }
